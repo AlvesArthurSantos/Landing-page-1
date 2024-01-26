@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    line-height: 1.5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header {
+    margin: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    width: 150px;
+    text-align: center;
+}
+
+menu {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section {
+    height: 96vh;
+    width: 96vw;
+}
+
+section input{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section input:last-child {
+    background-color: rgb(169, 104, 231);
+    align-self: center;
+    font-size: medium;
+}
+
+section input:last-child:hover {
+    
+}
+
+section.conteudo {
+    min-width: 800px;
+
+}
+
+section p {
+    max-width: 600px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.conteudo h2 {
+    width: 200px;
+    text-align: left;
+    margin: auto;
+
+}
+
+section.imagem img {
+   width: 600px;
+    align-self: center;
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+}
